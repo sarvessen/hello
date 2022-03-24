@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  <div class="banla">
+    <img src="logo.png" alt="">
+  </div>
+      <ul>
+
+       <li><a href="#home">About us</a></li>
+        <li><a href="#news">Contact</a></li>
+          <li><a href="design.html">T-shirt</a></li>
+           <li><a href="cloth.html">Home</a></li>
+
+
+
+                            </ul>
+
+
+
+
+  <div class="milo">
+    <img src="boug.png";>
+    </div>
+
+    <div class="zin">
+      <form action="/action_page.php">
+  <input type="tel" id="shoulder" name="phone" placeholder="Shoulder-Size" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+</form>
+</div>
+
+
+<div class="zin1">
+  <form action="/action_page.php">
+<input type="tel" id="arm" name="phone" placeholder="Arm-Size" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+</form>
+</div>
+
+<div class="zin2">
+  <form action="/action_page.php">
+<input type="tel" id="waist" name="phone" placeholder="Waist-Size" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+</form>
+ <button onclick="addHtmlTableRow();">submit</button>
+
+
+ <button>
+</div>
+
+
+
+ <div class="container">
+   <div class="tab tab-1">
+     <table id="table" border="1">
+       <tr>
+         <th>Shoulder size</th>
+         <th>Arm size</th>
+          <th>Waist size</th>
+         </tr>
+       </table>
+       </div>
+     </div>
+     <style>
+      body{
+        background-color:#bdc3c7;
+        margin: 0;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float:right;
+      }
+
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      .banla{
+        width:100%;
+      }
+
+      .banla img{
+        width:140px;
+        height:58px;
+        float: left;
+      }
+
+      .container{
+        margin-left:100px;
+      }
+
+
+       .milo{
+         position:absolute;
+         left:600px;
+         top:100px;
+
+       }
+
+       .zin{
+         position:absolute;
+         top:200px;
+         left:520px;
+
+
+       }
+
+       .zin1{
+         position:relative;
+         right:-840px;
+         top:300px;
+
+
+
+       }
+
+       .zin2{
+         position:absolute;
+         top:350px;
+         left:500px;
+
+
+
+
+
+       }
+       button{
+         position:absolute;
+         bottom:-250px;
+         left:200px;
+         background-color:#000000;
+         color:white;
+       }
+     </style>
+
+     <script>
+      function addHtmlTableRow()
+      {
+        var table = document.getElementById("table"),
+          newRow = table.insertRow(table.length),
+          cell1 = newRow.insertCell (0),
+            cell2 = newRow.insertCell (1),
+              cell3 = newRow.insertCell (2),
+              shoulder = document.getElementById("shoulder").value;
+              arm = document.getElementById("arm").value;
+              waist = document.getElementById("waist").value;
+
+              cell1.innerHTML = shoulder;
+                cell2.innerHTML = arm;
+                  cell3.innerHTML = waist;
+
+      }
+
+
+
+
+       </script>
+
+
+</body>
+</html>

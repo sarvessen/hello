@@ -1,0 +1,237 @@
+body{
+  margin:0;
+  background-color:#bdc3c7;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float:right;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.banla{
+  width:100%;
+}
+
+.banla img{
+  width:140px;
+  height:58px;
+  float: left;
+}
+
+
+.tshirt{
+  margin-left:400px;
+  margin-top:100px;
+
+
+
+
+}
+
+
+.button{
+  position:absolute;
+  left:10px;
+  top:200px;
+
+}
+
+
+
+
+
+ #btn1{
+   width: 50px;
+   height: 50px;
+   border-radius:50%;
+   background-color:#FFFFFF;
+   border: none;
+ }
+
+
+     #btn2{
+      width: 50px;
+      height: 50px;
+      border-radius:50%;
+      background-color:#000000;
+      border: none;
+ }
+
+
+         #btn3{
+          width: 50px;
+          height: 50px;
+          border-radius:50%;
+         background-color:#3C3CC7;
+         border: none;
+
+   }
+
+   #btn4{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+   background-color:#342415;
+   border: none;
+
+}
+
+#btn5{
+width: 50px;
+height: 50px;
+border-radius:50%;
+background-color:#3090C7;
+overflow:hidden;
+border: none;
+
+}
+
+.button{
+padding-left:80px;
+padding-top:30px;
+}
+
+
+
+
+#div1 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 40px;
+  padding: 10px;
+  position: relative;
+  left:50px;
+  bottom:220px;
+
+
+
+
+
+
+}
+
+
+
+
+#div {
+  float: left;
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  position:absolute;
+  left:520px;
+  bottom:350px;
+
+
+
+}
+
+#div2 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 40px;
+  padding: 10px;
+  position:relative;
+  bottom:230px;
+  left:-50px;
+
+
+}
+
+
+
+#div3 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 40px;
+  padding: 10px;
+  position:relative;
+  left:-350px;
+  bottom:160px;
+
+
+}
+
+
+#div4 {
+  float: left;
+  width: 100px;
+  height: 35px;
+  margin: 40px;
+  padding: 10px;
+  position:relative;
+  left:-450px;
+  bottom:160px;
+}
+.text{
+  position:absolute;
+  top:160px;
+  left:170px;
+  font-weight:400;
+  font-size:150%;
+  color:gray;
+
+}
+
+.bom{
+  position:absolute;
+  top:300px;
+  left:180px;
+  font-weight:400;
+  font-size:150%;
+  color:gray;
+}
+
+
+
+
+.zom{
+  position:absolute;
+  right:300px;
+  top:150px;
+  font-weight:400;
+  font-size:150%;
+  color:;
+
+}
+
+a.button{
+position:absolute;
+left:930px;
+top:320px;
+background-color:#000000;
+border:none;
+color: white;
+padding: 10px 28px 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+cursor: pointer;
+
+
+
+}
